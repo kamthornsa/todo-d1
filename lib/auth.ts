@@ -23,6 +23,9 @@ export function getAuth() {
     },
     plugins: [nextCookies()],
     advanced: {
+      ipAddress: {
+        ipAddressHeaders: ["cf-connecting-ip"],
+      },
       database: { joins: true },
       defaultCookieAttributes: {
         httpOnly: true,

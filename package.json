@@ -19,7 +19,7 @@
     "@opennextjs/cloudflare": "latest",
     "better-auth": "latest",
     "drizzle-orm": "latest",
-    "next": "latest",
+    "next": "16.3.1",
     "react": "latest",
     "react-dom": "latest",
     "zod": "latest"
@@ -31,7 +31,7 @@
     "@types/react-dom": "latest",
     "drizzle-kit": "latest",
     "eslint": "latest",
-    "eslint-config-next": "latest",
+    "eslint-config-next": "16.3.1",
     "tailwindcss": "latest",
     "typescript": "latest",
     "wrangler": "latest"
