@@ -1,13 +1,6 @@
 import Link from "next/link";
-import { redirect } from "next/navigation";
-import { getSession } from "@/lib/session";
 
-export const dynamic = "force-dynamic";
-
-export default async function Home() {
-  const session = await getSession();
-  if (session) redirect("/todos");
-
+export default function Home() {
   return (
     <main className="shell">
       <nav className="nav">
