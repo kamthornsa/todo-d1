@@ -16,5 +16,8 @@
       "migrations_dir": "drizzle"
     }
   ],
-  "observability": { "enabled": true }
+  "observability": { "enabled": true },
+  "vars": {
+    "BETTER_AUTH_URL": "https://simple-todo.kamthorn-sa.workers.dev"
+  }
 }
